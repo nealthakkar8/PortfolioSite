@@ -14,26 +14,27 @@ a:hover {
 
   .landing {
     color: #e9c46a;
-    margin-top: 5em;
+    margin-top: 5rem;
     h1 {
-      font-size: 7em;
+      font-size: 7rem;
     }
     h2 {
-      font-size: 4em;
+      font-size: 4rem;
+      padding-top: 1.5rem;
     }
   }
   
   .logos {
     text-align: center;
-    margin-top: 5em;
+    margin-top: 5rem;
     color: #e9c46a;
 
     
 
 
     p {
-      font-size: 2em;
-      padding-top: .5em;
+      font-size: 2rem;
+      padding-top: .5rem;
     }
 
   }
@@ -43,13 +44,13 @@ a:hover {
   }
 
   .nav-link  {
-    font-size: 2em;
+    font-size: 2rem;
     color: #f4a261  !important;
    
   }
   
   ul li {
-    padding-right: 1.5em;
+    padding-right: 1.5rem;
   }
 
 @media (min-width: 992px) {
