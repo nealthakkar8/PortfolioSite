@@ -1,7 +1,24 @@
+
+
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #264653;
   }
+
+.skills {
+  background-color: #e9c46a;
+
+  h2 {
+    font-size: 5rem;
+    color:  #264653;
+  }
+
+  p {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color:  #264653;
+  }
+}
 
 a {
   color: #e9c46a;
@@ -15,19 +32,17 @@ a:hover {
 h1 {
   font-size: 5.5rem;
   margin-top: 6rem; 
+  font-weight: 900;
 }
 
 h2 {
-  font-size: 60px;
-  margin-top: 3.5rem;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
 }
 
-  .landing {
+.landing {
     text-align: center;
     color: #e9c46a;
-
-    
-   
   }
   
   .logos {
@@ -51,13 +66,38 @@ h2 {
 
   .nav-link  {
     font-size: 2rem;
-    color: #f4a261  !important;
+    color:  #e9c46a  !important;
    
   }
   
   ul li {
     padding-right: 1.5rem;
   }
+
+.fa-html5:hover {
+  color: hsl(12, 77%, 52%);
+
+}
+
+.fa-css3-alt:hover {
+  color: hsl(228, 100%, 45%);
+}
+
+.fa-sass:hover {
+  color: #c69 ;
+}
+
+.fa-bootstrap:hover {
+  color: #563d7c;
+}
+
+.fa-js-square:hover {
+  color: hsl(0, 0%, 15%);
+}
+
+.fa-react:hover {
+  color: hsl(192, 95%, 43%);
+}
 
 @media (min-width: 992px) {
   .nav-link:hover {
