@@ -43,7 +43,6 @@ a:hover {
 .landing h1 {
   font-size: 5rem;
   margin-top: 6rem;
-  font-weight: 900;
 }
 
 h2 {
@@ -98,5 +97,11 @@ nav {
 @media (min-width: 992px) {
   .nav-link:hover {
     transform: scale(1.2);
+  }
+}
+
+@media (min-width: 576px) {
+  .landing h1 {
+    font-size: 7.5rem;
   }
 }
