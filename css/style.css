@@ -7,31 +7,23 @@ a.nav-link {
   margin-right: 35px;
 }
 
-.skills {
+h2 {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+#contact {
   background-color: #e9c46a;
+  color: #264653;
 }
 
-.skills h2 {
+#contact p {
+  margin-bottom: 0;
+}
+
+#contact h2 {
   text-align: center;
-  padding-top: 1.5rem;
   font-size: 4.5rem;
-  font-weight: 600;
-  color: #264653;
-}
-
-.skills p {
-  margin-top: 3rem;
-  font-size: 2rem;
-  color: #264653;
-}
-
-a {
-  color: #e9c46a;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #fff;
 }
 
 .landing {
@@ -45,15 +37,19 @@ a:hover {
   margin-top: 6rem;
 }
 
-h2 {
-  font-size: 2.5rem;
-  margin-top: 1.5rem;
-}
-
 .logos {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 4rem;
   color: #e9c46a;
+}
+
+.logos a {
+  color: #e9c46a;
+}
+
+.logos a:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 .logos p {
@@ -61,13 +57,38 @@ h2 {
   padding-top: .5rem;
 }
 
-nav {
-  background-color: #264653;
-}
-
 .nav-link {
   font-size: 2rem;
   color: #e9c46a  !important;
+}
+
+#projects {
+  background-color: #264653;
+  color: #e9c46a;
+}
+
+#projects h2 {
+  text-align: center;
+  font-size: 4.5rem;
+  padding-bottom: 2rem;
+}
+
+#skills {
+  background-color: #e9c46a;
+}
+
+#skills h2 {
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: #264653;
+}
+
+#skills p {
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: #264653;
 }
 
 .fa-html5:hover {
@@ -94,14 +115,27 @@ nav {
   color: #05acd6;
 }
 
-@media (min-width: 992px) {
-  .nav-link:hover {
-    transform: scale(1.2);
+.fa-size {
+  font-size: 12rem;
+}
+
+@media (max-width: 475px) {
+  #contact h2 {
+    font-size: 4rem;
+  }
+  .fa-size {
+    font-size: 8rem;
   }
 }
 
 @media (min-width: 576px) {
   .landing h1 {
-    font-size: 7.5rem;
+    font-size: 9rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-link:hover {
+    transform: scale(1.2);
   }
 }
