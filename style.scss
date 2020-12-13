@@ -12,18 +12,6 @@ h2 {
   margin-top: 1.5rem;
 }
 
-#contact {
-  p{
-    margin-bottom: 0;
-  }
-  h2{
-  text-align: center;
-  font-size: 4.5rem;
-}
-background-color: #e9c46a;
-color:#264653;  
-}
-
 .landing {
   text-align: center;
   color: #e9c46a;
@@ -62,18 +50,6 @@ color:#264653;
  
 }
 
-// PROJECTS SECTION
-
-#projects {
-  background-color:#264653;
-  color: #e9c46a;
-  h2 {
-    text-align: center;
-    font-size: 4.5rem;;
-    padding-bottom: 2rem;
-}
-}
-
 // SKILLS SECTION
 
 #skills {
@@ -96,31 +72,76 @@ color:#264653;
 
 .fa-html5:hover {
   color: hsl(12, 77%, 52%);
-
+  transform: scale(.98);
 }
 
 .fa-css3-alt:hover {
-  color: hsl(228, 100%, 45%);
+  color: hsl(228, 100%, 55%);
+  transform: scale(.98);
 }
 
 .fa-sass:hover {
   color: #c69 ;
+  transform: scale(.98);
 }
 
 .fa-bootstrap:hover {
   color: #563d7c;
+  transform: scale(.98);
 }
 
 .fa-js-square:hover {
   color: hsl(0, 0%, 15%);
-}
-
-.fa-react:hover {
-  color: hsl(192, 95%, 43%);
+  transform: scale(.98);
 }
 
 .fa-size {
   font-size: 12rem;
+}
+
+img {
+  height: auto;
+  width: 12rem;
+}
+
+img:hover {
+  transform: scale(.98)
+}
+
+// CONTACT
+
+#contact {
+  font-size: 4.5rem;
+  background-color: #264653;
+  color:#e9c46a;  
+  padding-bottom: 5rem;
+  p{
+    margin-bottom: 0;
+  }
+  h2{
+  font-weight: 600;
+  text-align: center;
+  font-size: 4.5rem;
+  padding-top: 1.5rem;
+}
+}
+
+.contacticons {
+  margin-top: 6rem;
+  padding-bottom: 1rem;
+}
+
+.contacticons:hover {
+  transform: scale(.98);
+  color: white;
+}
+
+.contactinfo {
+  font-size: 3rem;
+}
+
+.contactgroup {
+  margin-left: 2.5rem;
 }
 
 // MEDIA QUERIES
@@ -130,6 +151,12 @@ color:#264653;
   }
   .fa-size {
     font-size: 8rem;
+  }
+  img {
+    width: 8rem;
+  }
+  .contactinfo {
+    font-size: 1.5rem;
   }
 }
 
